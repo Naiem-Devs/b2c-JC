@@ -1,0 +1,208 @@
+/* TEXT INPUT & TEXTAREA */
+
+input[type="text"],
+input[type="number"],
+input[type="url"],
+input[type="email"],
+input[type="tel"],
+input[type="password"],
+textarea {
+	box-sizing: border-box;
+	color: #1D252D;
+	font-family: inherit;
+	font-size: 16px;
+	line-height: 40px;
+	height: 40px;
+	width: 100%;
+	padding: 0 15px;
+	background: #fff;
+	box-shadow: inset 0 0 0 1px #cbd6e2;
+	border: none;
+	border-radius: 3px;
+	transition: box-shadow 0.25s;
+	appearance: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus,
+input[type="url"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus,
+input[type="password"]:focus,
+textarea:focus {
+	box-shadow: inset 0 0 0 1px rgba(82,168,236,0.8);
+	outline: none;
+}
+
+textarea {
+	display: block;
+	line-height: 24px;
+	padding: 10px 20px;
+	height: 160px;
+	resize: vertical;
+}
+
+
+
+/* SELECT
+
+select {
+	cursor: pointer;
+	box-sizing: border-box;
+	color: #1D252D;
+	font-family: inherit;
+	font-size: 16px;
+	line-height: 40px;
+	height: 40px;
+	width: 100%;
+	padding: 0 30px 0 15px;
+	box-shadow: inset 0 0 0 1px #cbd6e2;
+	border: none;
+	border-radius: 3px;
+	background: #fff no-repeat right 16px center url();
+	transition: box-shadow 0.25s;
+	appearance: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+}
+
+select:focus {
+	box-shadow: inset 0 0 0 1px rgba(82,168,236,0.8);
+	outline: none;
+}
+
+select::-ms-expand {
+	display: none;
+} */
+
+
+
+/* CHECKBOX
+
+.b-checkbox,
+.b-radio,
+.gfield_checkbox,
+.gfield_radio,
+.ginput_container_consent,
+.copy_values_option_container {
+	position: relative;
+	overflow: hidden;
+}
+
+.b-checkbox input,
+.b-radio input,
+.gfield_checkbox input,
+.gfield_radio input,
+.ginput_container_consent input,
+.copy_values_option_container input {
+	position: absolute;
+	top: 0;
+	left: -9999px;
+}
+
+.b-checkbox input + span,
+.b-radio input + span,
+.gfield_checkbox input + label,
+.gfield_radio input + label,
+.ginput_container_consent input + label,
+.copy_values_option_container input + label {
+	display: block;
+	position: relative;
+	padding: 0 0 0 30px;
+}
+
+.b-checkbox input + span::before,
+.b-radio input + span::before,
+.gfield_checkbox input + label::before,
+.gfield_radio input + label::before,
+.ginput_container_consent input + label::before,
+.copy_values_option_container input + label::before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 20px;
+	height: 20px;
+	border-radius: 3px;
+	box-shadow: inset 0 0 0 1px #ccc;
+	background: #fff;
+}
+
+.b-checkbox input:checked + span::before,
+.b-radio input:checked + span::before,
+.gfield_checkbox input:checked + label::before,
+.gfield_radio input:checked + label::before,
+.ginput_container_consent input:checked + label::before,
+.copy_values_option_container input:checked + label::before {background:#ccc no-repeat center url();}
+
+.gfield_checkbox > li,
+.gfield_radio > li {
+	margin: 0 30px 0 0;
+	display: inline-block;
+	vertical-align: top;
+} */
+
+
+
+/* GRAVITY FORMS LAYOUT
+
+.gform_ajax_spinner {display: none !important;}
+
+.gform_wrapper .validation_error {}
+.gform_page_fields {}
+.gform_page_footer {}
+.gform_footer {}
+
+@media screen and (max-width: 900px) {
+
+} */
+
+
+
+/* GRAVITY FORMS FIELDS
+
+body .gform_fields {
+	display: flex;
+	flex-wrap: wrap;
+	list-style: none;
+	margin: -10px !important;
+	padding: 0 !important;
+}
+
+.gform_fields .gfield {
+	width: 100%;
+	box-sizing: border-box;
+	flex: 0 0 auto;
+	align-items: stretch;
+	margin: 0 !important;
+	padding: 10px !important;
+}
+
+.gform_fields .gfield .gfield_label {}
+.gform_fields .gfield_description {}
+
+.gform_fields .gfield .gfield_required {display:none;}
+.gform_fields .gfield.hidden_label .gfield_label {display:none;}
+
+.gform_fields .validation_message {
+	color: red;
+}
+
+.gform_fields .screen-reader-text,
+.gform_fields .gform_validation_container,
+.gform_fields .gform_hidden {
+	display: none;
+}
+
+.gform_fields .gfield_checkbox,
+.gform_fields .gfield_radio {
+	padding: 0;
+	list-style: none;
+}
+
+@media screen and (max-width: 900px) {
+	.gform_fields .gfield {width:100%;}
+} */
